@@ -49,44 +49,6 @@ tl.models.timeline = function() {
 			var container = d3.select(this);
 
 			var disp_date = { start : '2007/04/01', end : '2014/11/01'}
-			/*var work_hist = [{
-				company	 : "Sony Corporation",
-				link	   : "http://www.sony.co.jp",
-				period   : { start : '2008/04/01', end : '2014/11/01' },
-				positions :[
-					{ title : "Software Engineer, Researcher",
-						unit : "Sect1 Intelligence Application Development Division, Technology Development Group, R&D",
-						period : {start : '2008/04/01', end : '2011/04/01'},
-						explaination : "",
-						episodes : [],
-						upvotes : 0
-					},
-					{ title : "Lead Software Engineer, Researcher",
-						unit : "Sect1 Intelligence Application Development Division, Technology Development Group, R&D",
-						period : {start : '2011/04/01', end : '2014/11/01'},
-						explaination : "",
-						episodes : [],
-						upvotes : 0
-					}
-				],
-				projects : [
-					{ title : 'MusicAnalysis',
-						period : {start : '2008/04/01', end : '2011/04/01'},
-						projects :[],
-						explaination : "",
-						episodes : [],
-						upvotes : 0
-					},
-					{ title : 'SportAssistTechnology',
-						period : {start : '2011/04/01', end : '2014/11/01'},
-						projects :[],
-						explaination : "",
-						episodes : [],
-						upvotes : 0
-					}
-				]
-			}];
-			*/
 
 			// update size
 			width   = svg_size[0] - margin.left - margin.right,
